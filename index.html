@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <h1>Projeto Sistema Solar <i class="bi bi-globe-americas"></i></h1>
+            <nav>
+                <ul class="header-menu">
+                    <li><a href="home.html" class="item-menu">Home</a></li>
+                    <li><a href="planetas.html" class="item-menu">Planetas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay"></div> <div class="container hero-content">
+            <h2>Bem-vindo ao <span style="color: var(--primary);">Sistema Solar Interno</span></h2>
+            <p>Explore os planetas, satélites e muito mais sobre o nosso sistema solar.</p>  
+        </div>
+        <video class="video" autoplay muted loop playsinline>
+            <source src="/videos/video_1.mp4" type="video/mp4">
+        </video>
+    </section>
+    
+    <section class="planetas_rochosos" id="planetas_rochosos">
+        <div class="container">
+            <div class="section-title">
+                <h2>Planetas Rochosos</h2>
+                <p>Conheça os planetas rochosos do nosso sistema solar: Mercúrio, Vênus, Terra e Marte.</p>
+            </div>
+
+            <div class="planetas-lista">
+                <div class="planeta-item">
+                    <img src="/images/mercury.png" alt="Mercúrio">
+                    <h3>Mercúrio</h3>
+                </div>
+                <div class="planeta-item">
+                    <img src="/images/venus.png" alt="Vênus">
+                    <h3>Vênus</h3>
+                </div>
+                <div class="planeta-item">
+                    <img src="/images/earth.png" alt="Terra">
+                    <h3>Terra</h3>
+                </div>
+                <div class="planeta-item">
+                    <img src="/images/mars.png" alt="Marte">
+                    <h3>Marte</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container" style="text-align: center; padding: 80px 0;">
+            <h2>Assine nossa Newsletter</h2>
+            <p>Fique por dentro das últimas novidades sobre o sistema solar e astronomia.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Digite seu email" required>
+                <button type="submit">Assinar</button>
+            </form>
+            
+            <nav style="margin-top: 40px; display: flex; justify-content: center;">
+                <ul class="header-menu">
+
+                    <li><a href="home.html" class="item-menu">Home</a></li>
+                    <li><a href="planetas.html" class="item-menu">Planetas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; padding: 40px 20px;">
+            <div class="footer-brand">
+                <h2>Projeto Sistema Solar</h2>
+                <p style="color: #aaa; margin-top: 5px;">Explorando os mistérios do nosso sistema solar.</p>
+            </div>    
+
+            
+            <div class="footer-social">
+                <h4>Redes Sociais</h4>
+                <div style="display: flex; gap: 15px; margin-top: 10px; font-size: 1.5rem;">
+                    <a href="#" style="color: var(--light-text); transition: 0.3s;"><i class="bi bi-instagram"></i></a>
+                    <a href="#" style="color: var(--light-text); transition: 0.3s;"><i class="bi bi-discord"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="java.js"></script>
+</body>
+</html>
